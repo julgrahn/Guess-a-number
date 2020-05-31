@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1590905312 source:c:\users\alexa.desktop-n1bfakt\documents\c programming\c programming udemy\guessnumber\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
