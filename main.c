@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define NUMBER 20
-
 int main()
 {
     printf("Welcome to the number guessing game!\n");
@@ -18,7 +16,7 @@ int main()
     int guess = 0;
     while(guessLeft != 0)
     {
-        printf("You have %d tries left.\n", guessLeft);
+        printf("You have %d tr%s left.\n", guessLeft, guessLeft == 1 ? "y" : "ies");
         printf("Enter a guess: \n");
         scanf("%d", &guess);
         if(guess == randomNumber)
